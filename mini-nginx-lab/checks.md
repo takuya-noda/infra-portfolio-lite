@@ -11,3 +11,11 @@
   ```bash
   chmod +x setup.sh
   sudo ./setup.sh
+
+## 2025-10-27
+- setup.sh 実行後、nginx 設定チェックを実施。
+- 結果: syntax is ok / test is successful
+- systemctl status: active (running)
+- curl にて HTTP/1.1 200 OK を確認。
+- 次回: HTMLを追加しブラウザで表示確認を行う予定。
+
