@@ -29,9 +29,9 @@ Nginxの最小構成を理解するための練習環境です。
 ### Nginx サービス起動確認
 Nginx が正常に起動し、HTTP/1.1 200 OK を返している状態です。
 
-![Nginx起動確認](images/サービス起動確認.png)
+![サービス起動確認](images/nginx-status.png)
 
 ### HTML 表示確認
 ブラウザ経由で `index.html` にアクセスし、表示を確認しました。
 
-![HTML表示確認](images/ブラウザ表示確認.png)
+![ブラウザ表示確認](images/browser-view.png)
