@@ -17,5 +17,10 @@
 - 結果: syntax is ok / test is successful
 - systemctl status: active (running)
 - curl にて HTTP/1.1 200 OK を確認。
-- 次回: HTMLを追加しブラウザで表示確認を行う予定。
-
+- Nginx構築済み環境の再現確認を実施。
+- 以下の確認を行い、稼働状態を確認した。
+  - `nginx -v` → nginx/1.24.0
+  - `systemctl status nginx` → Active(running)
+  - `curl -I http://localhost` → HTTP/1.1 200 OK
+- Macのブラウザからも Ubuntu上のNginxにアクセスし、index.htmlが正しく表示されることを確認。
+- 現在は Parallels 上の Ubuntu で動作を検証。

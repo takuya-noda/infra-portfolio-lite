@@ -18,8 +18,8 @@ Nginxの最小構成を理解するための練習環境です。
 - `checks.md`：動作確認・トラブルメモ
 - `README.md`：全体の記録と目的をまとめたドキュメント
 
-## 今後の展望
-- systemctlによる起動設定確認  
-- ufw（ファイアウォール）設定との併用テスト  
-- AWS EC2環境での再現も検討
-
+### 確認内容（2025-10-27 時点）
+- `nginx -v` → nginx/1.24.0
+- `systemctl status nginx` → Active(running)
+- `curl -I http://localhost` → HTTP/1.1 200 OK
+- ブラウザアクセスでも index.html が表示されることを確認
