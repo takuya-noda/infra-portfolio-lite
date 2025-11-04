@@ -14,7 +14,6 @@ AWS EC2上でNginxを構築し、HTTPアクセス確認までを行ったミニ�
 ## 構築手順
 
 ### パッケージ更新とNginxのインストール
-```bash
 sudo dnf update -y
 sudo dnf install nginx -y
 
