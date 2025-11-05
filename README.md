@@ -75,3 +75,12 @@ AWS EC2（Amazon Linux 2023）上に Nginx を構築し、インターネット�
   - 検証項目（監視・ログ・セキュリティグループなど）の追加  
   - 構成管理ツール（Ansible など）による自動化への展開  
   - 学習状況に合わせて、新しいラボ（データベース、ロードバランサなど）を追加
+
+---
+
+## 学習記録リポジトリ
+
+職業訓練・自主学習・資格対策など、日々の記録はこちらで管理しています。  
+Linux、AWS、Python、Excel などの訓練内容を継続的にまとめています。
+
+🔗 [my-first-repo（職業訓練・Linux・AWS学習ログ）](https://github.com/takuya-noda/my-first-repo)
